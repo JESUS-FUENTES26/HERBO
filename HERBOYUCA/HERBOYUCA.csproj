@@ -58,6 +58,12 @@
     <Compile Include="GUI\frm_login.Designer.cs">
       <DependentUpon>frm_login.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frm_menuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_menuAdmin.Designer.cs">
+      <DependentUpon>frm_menuAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frm_principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_menuAdmin.resx">
+      <DependentUpon>frm_menuAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_principal.resx">
       <DependentUpon>frm_principal.cs</DependentUpon>
