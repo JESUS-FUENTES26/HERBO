@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HERBOYUCA.GUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,9 @@ namespace HERBOYUCA
             if(pnl_secundario.Width >= 800)
             {
                 tmr_barraprogreso.Stop();
+                frm_seleccionInicio obj = new frm_seleccionInicio();
+                obj.Show();
+                this.Hide();
             }
         }
         private void tmr_barraprogreso_Tick(object sender, EventArgs e)

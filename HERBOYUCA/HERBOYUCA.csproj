@@ -72,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_principal.resx">
       <DependentUpon>frm_principal.cs</DependentUpon>
     </EmbeddedResource>

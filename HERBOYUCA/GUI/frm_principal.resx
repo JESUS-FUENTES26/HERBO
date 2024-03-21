@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="tmr_barraprogreso.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAvoAAAJ+CAYAAADCPqQbAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAZyFJREFUeF7t3XmUVdWZ///+J8tFfiwk4evK1/7+DGj8EZPuBMQ5UauQSVNAFaMM
+        DgAACw4BQL7hQQAAZyFJREFUeF7t3XmUVdWZ///+J8tFfiwk4evK1/7+DGj8EZPuBMQ5UauQSVNAFaMM
         xiokTKJSYCSISCEqgyKUICoqk2M0MSARO5IBEu1oDFG+mhi7TQJtYgZ7wBA7ia2xfs8u6+Ll1HPrnn3v
         GfY+581ar7WSx6p7b93hnM/Zd+9n/11bWxsAwEP/e/1FPQ3tvwEAoBYBAG7rCPn7OhD2AQCdqEUAgNs6
         An5bB8I+AKATtQgAcJeE+i1FIb9gu/azAID8UosAADdJoNdCfsEW7XcAAPmkFgEA7pEg3xQI9hrCPgCg
@@ -564,8 +567,8 @@
         AOA3tQgAAADAZ21/9/8DFxc2MHpa9AwAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="tmr_barraprogreso.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+  <metadata name="elp_principal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>169, 17</value>
   </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

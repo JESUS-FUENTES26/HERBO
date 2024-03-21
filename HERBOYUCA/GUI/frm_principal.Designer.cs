@@ -30,25 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_principal));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnl_principal = new System.Windows.Forms.Panel();
             this.pnl_secundario = new System.Windows.Forms.Panel();
             this.tmr_barraprogreso = new System.Windows.Forms.Timer(this.components);
             this.lbl_cargando = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.elp_principal = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.pnl_principal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(240, 90);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(329, 241);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // pnl_principal
             // 
@@ -56,7 +46,7 @@
             this.pnl_principal.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnl_principal.Location = new System.Drawing.Point(0, 439);
             this.pnl_principal.Name = "pnl_principal";
-            this.pnl_principal.Size = new System.Drawing.Size(800, 11);
+            this.pnl_principal.Size = new System.Drawing.Size(671, 11);
             this.pnl_principal.TabIndex = 1;
             // 
             // pnl_secundario
@@ -86,21 +76,38 @@
             this.lbl_cargando.TabIndex = 2;
             this.lbl_cargando.Text = "Cargando...";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(175, 90);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(329, 241);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // elp_principal
+            // 
+            this.elp_principal.BorderRadius = 7;
+            this.elp_principal.TargetControl = this;
+            // 
             // frm_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(671, 450);
             this.Controls.Add(this.lbl_cargando);
             this.Controls.Add(this.pnl_principal);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HERBOYUCA";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnl_principal.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -113,6 +120,7 @@
         private System.Windows.Forms.Panel pnl_secundario;
         private System.Windows.Forms.Timer tmr_barraprogreso;
         private System.Windows.Forms.Label lbl_cargando;
+        private Guna.UI2.WinForms.Guna2Elipse elp_principal;
     }
 }
 
