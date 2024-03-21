@@ -57,5 +57,12 @@ namespace HERBOYUCA.GUI
             obj.Show();
             this.Close();
         }
+
+        private void btn_registrarse_Click(object sender, EventArgs e)
+        {
+            frm_registrarse obj = new frm_registrarse();
+            obj.Show();
+            this.Close();
+        }
     }
 }

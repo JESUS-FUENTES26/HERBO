@@ -118,35 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btn_regresar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAEhJREFUSEtj
-        GDGgAYppAkAG/4diqluCbPgVINYCYqqBUcOxglHDsQKaGg4CNLcABEYtIQmMWkISoLslIDZNAMhgmhk+
-        mAEDAwA1Nz+9P0uh6AAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="btn_minimizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAFtJREFUSEvt
-        lTEKACAMA/t0f+Yn/I82gyBSiQqCQw4OOjTNpiZOSW5x66XI4saS7EbBE3FjSV+6heZVoAKKCih/FfR5
-        VzDOIdHyrmCcQ+gCgeafP9fPPxwxYdYA0o+TwQcdcMUAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="btn_cerrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAALRJREFUSEvt
-        ld0NhDAMgzvPTclmLHH7QC0RFFwblJ7ujU+y+IntCPHQ9lJl6Vq7tkkhiw7Lt0sFK0KHJUyzPOaV4XNc
-        FTwrL0ABPlktUbPSgijAMxe5Wc5L2KCKXDng/IAycKErByp/wRnyEkiVA5c/cYa/LsjluOZ7XqLyF9jA
-        5XhW7wLOD2TDXZGb5byEDVGUywM1Ky8Aqjzg2dSCCo/5X86CEDosOCzi580I2dsD54VobQcO+KwxiYXS
-        2gAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <metadata name="elp_login.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>43</value>
-  </metadata>
   <data name="btn_mostrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAO1JREFUSEvt
@@ -169,6 +140,25 @@
         INCFemLk/fVP1DRvL4yg8ApIolMAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="btn_minimizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAFtJREFUSEvt
+        lTEKACAMA/t0f+Yn/I82gyBSiQqCQw4OOjTNpiZOSW5x66XI4saS7EbBE3FjSV+6heZVoAKKCih/FfR5
+        VzDOIdHyrmCcQ+gCgeafP9fPPxwxYdYA0o+TwQcdcMUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_cerrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAALRJREFUSEvt
+        ld0NhDAMgzvPTclmLHH7QC0RFFwblJ7ujU+y+IntCPHQ9lJl6Vq7tkkhiw7Lt0sFK0KHJUyzPOaV4XNc
+        FTwrL0ABPlktUbPSgijAMxe5Wc5L2KCKXDng/IAycKErByp/wRnyEkiVA5c/cYa/LsjluOZ7XqLyF9jA
+        5XhW7wLOD2TDXZGb5byEDVGUywM1Ky8Aqjzg2dSCCo/5X86CEDosOCzi580I2dsD54VobQcO+KwxiYXS
+        2gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="elp_registro.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAJ8AAAEAIAAIkAIAFgAAACgAAAAAAQAAPgEAAAEAIAAAAAAAAHwCABILAAASCwAAAAAAAAAA
@@ -2971,6 +2961,13 @@
         /AAA///////////////////////////////////////+AAH/////////////////////////////////
         //////8AA////////////////////////////////////////4AH////////////////////////////
         ////////////wA////////////////////8=
+</value>
+  </data>
+  <data name="btn_regresar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAEhJREFUSEtj
+        GDGgAYppAkAG/4diqluCbPgVINYCYqqBUcOxglHDsQKaGg4CNLcABEYtIQmMWkISoLslIDZNAMhgmhk+
+        mAEDAwA1Nz+9P0uh6AAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

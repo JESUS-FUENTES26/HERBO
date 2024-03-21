@@ -54,7 +54,7 @@
             this.btn_iniciarSesion.FillColor2 = System.Drawing.Color.YellowGreen;
             this.btn_iniciarSesion.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_iniciarSesion.ForeColor = System.Drawing.Color.White;
-            this.btn_iniciarSesion.Location = new System.Drawing.Point(71, 363);
+            this.btn_iniciarSesion.Location = new System.Drawing.Point(66, 363);
             this.btn_iniciarSesion.Name = "btn_iniciarSesion";
             this.btn_iniciarSesion.Size = new System.Drawing.Size(224, 45);
             this.btn_iniciarSesion.TabIndex = 2;
@@ -74,11 +74,12 @@
             this.btn_registrarse.FillColor2 = System.Drawing.Color.YellowGreen;
             this.btn_registrarse.Font = new System.Drawing.Font("Baskerville Old Face", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_registrarse.ForeColor = System.Drawing.Color.White;
-            this.btn_registrarse.Location = new System.Drawing.Point(71, 423);
+            this.btn_registrarse.Location = new System.Drawing.Point(66, 423);
             this.btn_registrarse.Name = "btn_registrarse";
             this.btn_registrarse.Size = new System.Drawing.Size(224, 45);
             this.btn_registrarse.TabIndex = 3;
             this.btn_registrarse.Text = "registrarse";
+            this.btn_registrarse.Click += new System.EventHandler(this.btn_registrarse_Click);
             // 
             // pct_imaLogo
             // 

@@ -44,6 +44,7 @@
             this.elp_login = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.btn_ocultar = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btn_mostrar = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btn_regresar = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2GradientPanel3.SuspendLayout();
             this.SuspendLayout();
@@ -163,6 +164,7 @@
             // 
             // guna2GradientPanel3
             // 
+            this.guna2GradientPanel3.Controls.Add(this.btn_regresar);
             this.guna2GradientPanel3.Controls.Add(this.btn_minimizar);
             this.guna2GradientPanel3.Controls.Add(this.btn_cerrar);
             this.guna2GradientPanel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -255,6 +257,28 @@
             this.btn_mostrar.TabIndex = 10;
             this.btn_mostrar.Click += new System.EventHandler(this.btn_mostrar_Click);
             // 
+            // btn_regresar
+            // 
+            this.btn_regresar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_regresar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_regresar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_regresar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_regresar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_regresar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_regresar.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btn_regresar.FillColor = System.Drawing.Color.Empty;
+            this.btn_regresar.FillColor2 = System.Drawing.Color.Empty;
+            this.btn_regresar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_regresar.ForeColor = System.Drawing.Color.White;
+            this.btn_regresar.HoverState.FillColor = System.Drawing.Color.Blue;
+            this.btn_regresar.HoverState.FillColor2 = System.Drawing.Color.Cyan;
+            this.btn_regresar.Image = ((System.Drawing.Image)(resources.GetObject("btn_regresar.Image")));
+            this.btn_regresar.Location = new System.Drawing.Point(0, 0);
+            this.btn_regresar.Name = "btn_regresar";
+            this.btn_regresar.Size = new System.Drawing.Size(33, 33);
+            this.btn_regresar.TabIndex = 5;
+            this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
+            // 
             // frm_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -300,5 +324,6 @@
         private Guna.UI2.WinForms.Guna2Elipse elp_login;
         private Guna.UI2.WinForms.Guna2ImageButton btn_ocultar;
         private Guna.UI2.WinForms.Guna2ImageButton btn_mostrar;
+        private Guna.UI2.WinForms.Guna2GradientButton btn_regresar;
     }
 }

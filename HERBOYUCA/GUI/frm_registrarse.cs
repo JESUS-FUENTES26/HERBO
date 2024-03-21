@@ -11,16 +11,23 @@ using System.Windows.Forms;
 
 namespace HERBOYUCA.GUI
 {
-    public partial class frm_login : Form
+    public partial class frm_registrarse : Form
     {
-        public frm_login()
+        public frm_registrarse()
         {
             InitializeComponent();
         }
+
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void Releasecapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void sendmessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+
+        private void pnl_cabezera_MouseDown(object sender, MouseEventArgs e)
+        {
+            Releasecapture();
+            sendmessage(this.Handle, 0x112, 0xf012, 0);
+        }
 
         private void minform()
         {
@@ -33,6 +40,7 @@ namespace HERBOYUCA.GUI
                 WindowState = FormWindowState.Normal;
             }
         }
+
         private void btn_minimizar_Click(object sender, EventArgs e)
         {
             minform();
@@ -41,17 +49,6 @@ namespace HERBOYUCA.GUI
         private void btn_cerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void txt_contraseña_TextChanged(object sender, EventArgs e)
-        {
-            txt_contraseña.UseSystemPasswordChar = true;
-        }
-
-        private void guna2GradientPanel3_MouseDown(object sender, MouseEventArgs e)
-        {
-            Releasecapture();
-            sendmessage(this.Handle, 0x112, 0xf012, 0);
         }
 
         private void btn_mostrar_Click(object sender, EventArgs e)
@@ -63,6 +60,11 @@ namespace HERBOYUCA.GUI
         private void btn_ocultar_Click(object sender, EventArgs e)
         {
             btn_mostrar.BringToFront();
+            txt_contraseña.UseSystemPasswordChar = true;
+        }
+
+        private void txt_contraseña_TextChanged(object sender, EventArgs e)
+        {
             txt_contraseña.UseSystemPasswordChar = true;
         }
 
